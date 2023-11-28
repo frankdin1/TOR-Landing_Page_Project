@@ -5,14 +5,34 @@
 .div1,
 .footer {
     height: fit-content;
-    width: fit-content;
     background-color: #1F2937;
     color: white;
 }
 
-.header {
+.div1 {
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    border: 1px solid white;
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-link {
+    font-size: 18px;
+    color: #e5e7eb;
+    border: 1px solid green;
+    display: flex;
+}
+
+.header-link-one,
+.header-link-two,
+.header-link-three {
+    margin-right: 10px;
 }
 
 .awesome-site {
@@ -21,18 +41,7 @@
     color: #f9faf8;
 }
 
-.header-link {
-    font-size: 18px;
-    color: #e5e7eb;
-    display: flex;
-    justify-content: space-between;
-}
 
-.one,
-.two,
-.three {
-    margin-right: 10px;
-}
 
 #logo {
     font-size: 24px;
