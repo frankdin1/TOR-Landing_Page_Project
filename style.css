@@ -10,6 +10,11 @@
     color: white;
 }
 
+.header {
+    display: flex;
+    justify-content: space-around;
+}
+
 .awesome-site {
     font-size: 48px;
     font-weight: extra-bold;
@@ -19,6 +24,14 @@
 .header-link {
     font-size: 18px;
     color: #e5e7eb;
+    display: flex;
+    justify-content: space-between;
+}
+
+.one,
+.two,
+.three {
+    margin-right: 10px;
 }
 
 #logo {
