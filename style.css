@@ -1,5 +1,6 @@
 * {
     font-family: roboto;
+    width: auto;
 }
 
 .div1,
@@ -24,13 +25,9 @@
 
 .header-link {
     border: 1px solid green;
+    width: 500px;
     display: flex;
-}
-
-.header-link-one,
-.header-link-two,
-.header-link-three {
-    margin-right: 10px;
+    justify-content: space-between;
 }
 
 .header-info {
