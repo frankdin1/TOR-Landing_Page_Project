@@ -64,15 +64,23 @@
     color: #f9faf8;
 }
 
+.div2 {
+    border: 1px solid blue;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .random-info {
-    font-weight: 36px;
-    font-size: extra-bold;
+    font-size: 36px;
+    font-weight: bold;
     color: #1F2937;
 }
 
 .quote {
     background-color: #e5e7eb;
     font-size: 36px;
-    font-family: italic;
+    font-weight: italic;
     color: #1f2937;
 }
